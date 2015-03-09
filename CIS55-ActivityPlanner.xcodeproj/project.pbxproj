@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D025BB781AAE650B00C19E14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D025BB771AAE650B00C19E14 /* AppDelegate.swift */; };
+		D025BB7B1AAE650B00C19E14 /* CIS55_ActivityPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D025BB791AAE650B00C19E14 /* CIS55_ActivityPlanner.xcdatamodeld */; };
+		D025BB7D1AAE650B00C19E14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D025BB7C1AAE650B00C19E14 /* ViewController.swift */; };
+		D025BB801AAE650B00C19E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D025BB7E1AAE650B00C19E14 /* Main.storyboard */; };
+		D025BB821AAE650B00C19E14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D025BB811AAE650B00C19E14 /* Images.xcassets */; };
+		D025BB851AAE650B00C19E14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D025BB831AAE650B00C19E14 /* LaunchScreen.xib */; };
+		D025BB911AAE650B00C19E14 /* CIS55_ActivityPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D025BB901AAE650B00C19E14 /* CIS55_ActivityPlannerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D025BB8B1AAE650B00C19E14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D025BB6A1AAE650B00C19E14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D025BB711AAE650B00C19E14;
+			remoteInfo = "CIS55-ActivityPlanner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D025BB721AAE650B00C19E14 /* CIS55-ActivityPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CIS55-ActivityPlanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D025BB761AAE650B00C19E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D025BB771AAE650B00C19E14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D025BB7A1AAE650B00C19E14 /* CIS55_ActivityPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CIS55_ActivityPlanner.xcdatamodel; sourceTree = "<group>"; };
+		D025BB7C1AAE650B00C19E14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D025BB7F1AAE650B00C19E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D025BB811AAE650B00C19E14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D025BB841AAE650B00C19E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D025BB8A1AAE650B00C19E14 /* CIS55-ActivityPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CIS55-ActivityPlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D025BB8F1AAE650B00C19E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D025BB901AAE650B00C19E14 /* CIS55_ActivityPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIS55_ActivityPlannerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D025BB6F1AAE650B00C19E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D025BB871AAE650B00C19E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D025BB691AAE650B00C19E14 = {
+			isa = PBXGroup;
+			children = (
+				D025BB741AAE650B00C19E14 /* CIS55-ActivityPlanner */,
+				D025BB8D1AAE650B00C19E14 /* CIS55-ActivityPlannerTests */,
+				D025BB731AAE650B00C19E14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D025BB731AAE650B00C19E14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D025BB721AAE650B00C19E14 /* CIS55-ActivityPlanner.app */,
+				D025BB8A1AAE650B00C19E14 /* CIS55-ActivityPlannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D025BB741AAE650B00C19E14 /* CIS55-ActivityPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				D025BB771AAE650B00C19E14 /* AppDelegate.swift */,
+				D025BB7C1AAE650B00C19E14 /* ViewController.swift */,
+				D025BB7E1AAE650B00C19E14 /* Main.storyboard */,
+				D025BB811AAE650B00C19E14 /* Images.xcassets */,
+				D025BB831AAE650B00C19E14 /* LaunchScreen.xib */,
+				D025BB791AAE650B00C19E14 /* CIS55_ActivityPlanner.xcdatamodeld */,
+				D025BB751AAE650B00C19E14 /* Supporting Files */,
+			);
+			path = "CIS55-ActivityPlanner";
+			sourceTree = "<group>";
+		};
+		D025BB751AAE650B00C19E14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D025BB761AAE650B00C19E14 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D025BB8D1AAE650B00C19E14 /* CIS55-ActivityPlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D025BB901AAE650B00C19E14 /* CIS55_ActivityPlannerTests.swift */,
+				D025BB8E1AAE650B00C19E14 /* Supporting Files */,
+			);
+			path = "CIS55-ActivityPlannerTests";
+			sourceTree = "<group>";
+		};
+		D025BB8E1AAE650B00C19E14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D025BB8F1AAE650B00C19E14 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D025BB711AAE650B00C19E14 /* CIS55-ActivityPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D025BB941AAE650B00C19E14 /* Build configuration list for PBXNativeTarget "CIS55-ActivityPlanner" */;
+			buildPhases = (
+				D025BB6E1AAE650B00C19E14 /* Sources */,
+				D025BB6F1AAE650B00C19E14 /* Frameworks */,
+				D025BB701AAE650B00C19E14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CIS55-ActivityPlanner";
+			productName = "CIS55-ActivityPlanner";
+			productReference = D025BB721AAE650B00C19E14 /* CIS55-ActivityPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D025BB891AAE650B00C19E14 /* CIS55-ActivityPlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D025BB971AAE650B00C19E14 /* Build configuration list for PBXNativeTarget "CIS55-ActivityPlannerTests" */;
+			buildPhases = (
+				D025BB861AAE650B00C19E14 /* Sources */,
+				D025BB871AAE650B00C19E14 /* Frameworks */,
+				D025BB881AAE650B00C19E14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D025BB8C1AAE650B00C19E14 /* PBXTargetDependency */,
+			);
+			name = "CIS55-ActivityPlannerTests";
+			productName = "CIS55-ActivityPlannerTests";
+			productReference = D025BB8A1AAE650B00C19E14 /* CIS55-ActivityPlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D025BB6A1AAE650B00C19E14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = DeAnza;
+				TargetAttributes = {
+					D025BB711AAE650B00C19E14 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D025BB891AAE650B00C19E14 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D025BB711AAE650B00C19E14;
+					};
+				};
+			};
+			buildConfigurationList = D025BB6D1AAE650B00C19E14 /* Build configuration list for PBXProject "CIS55-ActivityPlanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D025BB691AAE650B00C19E14;
+			productRefGroup = D025BB731AAE650B00C19E14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D025BB711AAE650B00C19E14 /* CIS55-ActivityPlanner */,
+				D025BB891AAE650B00C19E14 /* CIS55-ActivityPlannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D025BB701AAE650B00C19E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D025BB801AAE650B00C19E14 /* Main.storyboard in Resources */,
+				D025BB851AAE650B00C19E14 /* LaunchScreen.xib in Resources */,
+				D025BB821AAE650B00C19E14 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D025BB881AAE650B00C19E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D025BB6E1AAE650B00C19E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D025BB7D1AAE650B00C19E14 /* ViewController.swift in Sources */,
+				D025BB781AAE650B00C19E14 /* AppDelegate.swift in Sources */,
+				D025BB7B1AAE650B00C19E14 /* CIS55_ActivityPlanner.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D025BB861AAE650B00C19E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D025BB911AAE650B00C19E14 /* CIS55_ActivityPlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D025BB8C1AAE650B00C19E14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D025BB711AAE650B00C19E14 /* CIS55-ActivityPlanner */;
+			targetProxy = D025BB8B1AAE650B00C19E14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D025BB7E1AAE650B00C19E14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D025BB7F1AAE650B00C19E14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D025BB831AAE650B00C19E14 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D025BB841AAE650B00C19E14 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D025BB921AAE650B00C19E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D025BB931AAE650B00C19E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D025BB951AAE650B00C19E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CIS55-ActivityPlanner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D025BB961AAE650B00C19E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CIS55-ActivityPlanner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D025BB981AAE650B00C19E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CIS55-ActivityPlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIS55-ActivityPlanner.app/CIS55-ActivityPlanner";
+			};
+			name = Debug;
+		};
+		D025BB991AAE650B00C19E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CIS55-ActivityPlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIS55-ActivityPlanner.app/CIS55-ActivityPlanner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D025BB6D1AAE650B00C19E14 /* Build configuration list for PBXProject "CIS55-ActivityPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D025BB921AAE650B00C19E14 /* Debug */,
+				D025BB931AAE650B00C19E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D025BB941AAE650B00C19E14 /* Build configuration list for PBXNativeTarget "CIS55-ActivityPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D025BB951AAE650B00C19E14 /* Debug */,
+				D025BB961AAE650B00C19E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D025BB971AAE650B00C19E14 /* Build configuration list for PBXNativeTarget "CIS55-ActivityPlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D025BB981AAE650B00C19E14 /* Debug */,
+				D025BB991AAE650B00C19E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D025BB791AAE650B00C19E14 /* CIS55_ActivityPlanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D025BB7A1AAE650B00C19E14 /* CIS55_ActivityPlanner.xcdatamodel */,
+			);
+			currentVersion = D025BB7A1AAE650B00C19E14 /* CIS55_ActivityPlanner.xcdatamodel */;
+			path = CIS55_ActivityPlanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D025BB6A1AAE650B00C19E14 /* Project object */;
+}
