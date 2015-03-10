@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		D025BB781AAE650B00C19E14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D025BB771AAE650B00C19E14 /* AppDelegate.swift */; };
 		D025BB7B1AAE650B00C19E14 /* CIS55_ActivityPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D025BB791AAE650B00C19E14 /* CIS55_ActivityPlanner.xcdatamodeld */; };
-		D025BB7D1AAE650B00C19E14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D025BB7C1AAE650B00C19E14 /* ViewController.swift */; };
 		D025BB801AAE650B00C19E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D025BB7E1AAE650B00C19E14 /* Main.storyboard */; };
 		D025BB821AAE650B00C19E14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D025BB811AAE650B00C19E14 /* Images.xcassets */; };
 		D025BB851AAE650B00C19E14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D025BB831AAE650B00C19E14 /* LaunchScreen.xib */; };
 		D025BB911AAE650B00C19E14 /* CIS55_ActivityPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D025BB901AAE650B00C19E14 /* CIS55_ActivityPlannerTests.swift */; };
+		D025BB9B1AAE6E4C00C19E14 /* CalendarCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D025BB9A1AAE6E4C00C19E14 /* CalendarCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +31,13 @@
 		D025BB761AAE650B00C19E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D025BB771AAE650B00C19E14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D025BB7A1AAE650B00C19E14 /* CIS55_ActivityPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CIS55_ActivityPlanner.xcdatamodel; sourceTree = "<group>"; };
-		D025BB7C1AAE650B00C19E14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D025BB7F1AAE650B00C19E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D025BB811AAE650B00C19E14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D025BB841AAE650B00C19E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D025BB8A1AAE650B00C19E14 /* CIS55-ActivityPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CIS55-ActivityPlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D025BB8F1AAE650B00C19E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D025BB901AAE650B00C19E14 /* CIS55_ActivityPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIS55_ActivityPlannerTests.swift; sourceTree = "<group>"; };
+		D025BB9A1AAE6E4C00C19E14 /* CalendarCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +61,7 @@
 		D025BB691AAE650B00C19E14 = {
 			isa = PBXGroup;
 			children = (
+				D025BB9A1AAE6E4C00C19E14 /* CalendarCollectionViewController.swift */,
 				D025BB741AAE650B00C19E14 /* CIS55-ActivityPlanner */,
 				D025BB8D1AAE650B00C19E14 /* CIS55-ActivityPlannerTests */,
 				D025BB731AAE650B00C19E14 /* Products */,
@@ -80,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				D025BB771AAE650B00C19E14 /* AppDelegate.swift */,
-				D025BB7C1AAE650B00C19E14 /* ViewController.swift */,
 				D025BB7E1AAE650B00C19E14 /* Main.storyboard */,
 				D025BB811AAE650B00C19E14 /* Images.xcassets */,
 				D025BB831AAE650B00C19E14 /* LaunchScreen.xib */,
@@ -215,8 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D025BB7D1AAE650B00C19E14 /* ViewController.swift in Sources */,
 				D025BB781AAE650B00C19E14 /* AppDelegate.swift in Sources */,
+				D025BB9B1AAE6E4C00C19E14 /* CalendarCollectionViewController.swift in Sources */,
 				D025BB7B1AAE650B00C19E14 /* CIS55_ActivityPlanner.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
