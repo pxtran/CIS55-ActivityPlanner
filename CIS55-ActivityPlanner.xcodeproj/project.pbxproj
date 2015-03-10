@@ -14,6 +14,7 @@
 		D025BB851AAE650B00C19E14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D025BB831AAE650B00C19E14 /* LaunchScreen.xib */; };
 		D025BB911AAE650B00C19E14 /* CIS55_ActivityPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D025BB901AAE650B00C19E14 /* CIS55_ActivityPlannerTests.swift */; };
 		D025BB9B1AAE6E4C00C19E14 /* CalendarCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D025BB9A1AAE6E4C00C19E14 /* CalendarCollectionViewController.swift */; };
+		D025BB9D1AAEAB3E00C19E14 /* CalanderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D025BB9C1AAEAB3E00C19E14 /* CalanderCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		D025BB8F1AAE650B00C19E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D025BB901AAE650B00C19E14 /* CIS55_ActivityPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIS55_ActivityPlannerTests.swift; sourceTree = "<group>"; };
 		D025BB9A1AAE6E4C00C19E14 /* CalendarCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewController.swift; sourceTree = "<group>"; };
+		D025BB9C1AAEAB3E00C19E14 /* CalanderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalanderCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				D025BB9A1AAE6E4C00C19E14 /* CalendarCollectionViewController.swift */,
+				D025BB9C1AAEAB3E00C19E14 /* CalanderCollectionViewCell.swift */,
 				D025BB741AAE650B00C19E14 /* CIS55-ActivityPlanner */,
 				D025BB8D1AAE650B00C19E14 /* CIS55-ActivityPlannerTests */,
 				D025BB731AAE650B00C19E14 /* Products */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D025BB9D1AAEAB3E00C19E14 /* CalanderCollectionViewCell.swift in Sources */,
 				D025BB781AAE650B00C19E14 /* AppDelegate.swift in Sources */,
 				D025BB9B1AAE6E4C00C19E14 /* CalendarCollectionViewController.swift in Sources */,
 				D025BB7B1AAE650B00C19E14 /* CIS55_ActivityPlanner.xcdatamodeld in Sources */,
