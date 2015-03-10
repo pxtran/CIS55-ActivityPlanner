@@ -28,6 +28,9 @@ class CalendarViewControllerCollectionViewController: UICollectionViewController
         flowLayout.minimumInteritemSpacing = 0
         flowLayout.minimumLineSpacing = 0
         flowLayout.sectionInset = UIEdgeInsets(top: 20, left: 0, bottom: 20, right: 23)
+        //1F63FF
+        self.collectionView?.backgroundColor = UIColor(red: 0x1F/255,
+            green: 0x63/255, blue: 0xFF/255, alpha: 1.0)
 
     }
 
@@ -68,6 +71,9 @@ class CalendarViewControllerCollectionViewController: UICollectionViewController
 
         let index = indexPath.row
 
+        cell.cellText.textColor = UIColor.whiteColor()
+        cell.layer.backgroundColor = UIColor(red: 0x1F/255, green: 0x63/255, blue: 0xFF/255, alpha: 1.0).CGColor
+
         if index == 0 {
             cell.layer.borderWidth = 0
             cell.cellText.text = ""
@@ -98,6 +104,7 @@ class CalendarViewControllerCollectionViewController: UICollectionViewController
             //cell.backgroundColor = UIColor.blueColor()
             cell.layer.borderColor = UIColor.blackColor().CGColor
             cell.layer.borderWidth = 1.0
+            cell.layer.backgroundColor = UIColor.whiteColor().CGColor
             cell.cellText.numberOfLines = 0
             cell.cellText.textColor = UIColor.blackColor()
             cell.cellText.text = "Event 1\nEvent 2\nEvent 3"
@@ -112,15 +119,19 @@ class CalendarViewControllerCollectionViewController: UICollectionViewController
         let index = indexPath.row
 
         if (index >= 0 && index <= 7) || index % 8 == 0 {
-            cell?.layer.backgroundColor = UIColor.whiteColor().CGColor
+            //do nothing
         } else {
-            cell?.layer.backgroundColor = UIColor.grayColor().CGColor
+            cell?.layer.backgroundColor = UIColor.lightTextColor().CGColor
         }
     }
 
     override func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath) {
         let cell = collectionView.cellForItemAtIndexPath(indexPath)
-        cell?.layer.backgroundColor = UIColor.whiteColor().CGColor
+        let index = indexPath.row
+
+        if !((index >= 0 && index <= 7) || index % 8 == 0) {
+            cell?.layer.backgroundColor = UIColor.whiteColor().CGColor
+        }
     }
 
     /*func collectionView(collectionView: UICollectionView,
