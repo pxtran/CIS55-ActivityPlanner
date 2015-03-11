@@ -102,7 +102,7 @@ class CalendarViewControllerCollectionViewController: UICollectionViewController
 
         else {
             //cell.backgroundColor = UIColor.blueColor()
-            cell.layer.borderColor = UIColor.blackColor().CGColor
+            cell.layer.borderColor = UIColor.lightGrayColor().CGColor
             cell.layer.borderWidth = 1.0
             cell.layer.backgroundColor = UIColor.whiteColor().CGColor
             cell.cellText.numberOfLines = 0
